@@ -12,6 +12,8 @@ class Program
     [STAThreadAttribute]
     static void Main()
     {
+        new InputParser().Test();
+        return;
 
         while (true)
         {

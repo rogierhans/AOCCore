@@ -30,11 +30,42 @@ class Day
     }
 
 
+
     public string Part1(bool withTest)
     {
+
         if (withTest) Part1(testLines);
         return Part1(inputLines);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public string Part2(bool withTest)
     {
         if (withTest) Part2(testLines);
